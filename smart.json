@@ -1,0 +1,9 @@
+{
+  "name": "jszip",
+  "description": "Create, read and edit .zip files on server",
+  "homepage": "https://github.com/udondan/meteor-jszip",
+  "author": "Daniel Phatthanan <daniel@phatthanan.com> (http://phatthanan.com/)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "git": "https://github.com/udondan/meteor-jszip.git"
+}
