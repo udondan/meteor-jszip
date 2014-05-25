@@ -3,7 +3,7 @@
   "description": "Create, read and edit .zip files on server",
   "homepage": "https://github.com/udondan/meteor-jszip",
   "author": "Daniel Phatthanan <daniel@phatthanan.com> (http://phatthanan.com/)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "git": "https://github.com/udondan/meteor-jszip.git"
 }
