@@ -30,4 +30,4 @@ zip.saveAs("/path/to/filename.zip");
 
 ```
 
-  [1]: https://github.com/eligrey/FileSaver.js
+  [1]: http://stuk.github.io/jszip/
