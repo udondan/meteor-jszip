@@ -3,6 +3,8 @@ jszip
 
 A Zip package for Meteor. Create, read and edit .zip files on server.
 
+This package packs [JSZip][1] and adds a `saveAs` method to the zip instance for convenience.
+
 
 ##Install
 ```
@@ -12,9 +14,8 @@ mrt add jszip
 
 ##Documnentation
 
-Full documentation at the original package [JSZip][1].
+Full documentation of the API at the original package [JSZip][2].
 
-This bundle only adds a saveAs method.
 
 ##Usage
 ```
@@ -31,3 +32,4 @@ zip.saveAs("/path/to/filename.zip");
 ```
 
   [1]: http://stuk.github.io/jszip/
+  [2]: http://stuk.github.io/jszip/documentation/api_jszip.html
