@@ -18,7 +18,7 @@ Full documentation of the API at the original package [JSZip][2].
 
 
 ##Usage
-```
+```js
 var zip = new JSZip();
 
 // Add content to Zip file
