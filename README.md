@@ -39,7 +39,7 @@ zip.saveAs(path + "filename.zip");
 
 In an older Meteor version (before 0.6.5?) you could get to the public folder via `Meteor.chroot`.
 
-For creating a zip on the fly, here is an example with an [Iron Router](3) route:
+For creating a zip on the fly, here is an example with an [Iron Router][3] route:
 
 ```js
 Router.map(function() {
