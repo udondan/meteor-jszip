@@ -31,5 +31,11 @@ zip.saveAs("/path/to/filename.zip");
 
 ```
 
+If in an unknown environment you want to save to a folder within the meteor structure, e.g. the `public` folder you can use `process.env["PWD"]` to get to the absolute path:
+```js
+var path = process.env["PWD"] + "/public/";
+zip.saveAs(path + "filename.zip");
+```
+
   [1]: http://stuk.github.io/jszip/
   [2]: http://stuk.github.io/jszip/documentation/api_jszip.html
