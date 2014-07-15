@@ -28,7 +28,6 @@ zip.file('folder/document.pdf', binaryContentBase64Encoded, {base64: true});
 
 // Save to file on server
 zip.saveAs("/path/to/filename.zip");
-
 ```
 
 Optionally you can pass a callback function
