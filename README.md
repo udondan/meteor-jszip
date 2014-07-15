@@ -31,6 +31,13 @@ zip.saveAs("/path/to/filename.zip");
 
 ```
 
+Optionally you can pass a callback function
+```js
+zip.saveAs("/path/to/filename.zip", function(error, result) {
+    // ...
+});
+```
+
 If in an unknown environment you want to save to a folder within the meteor structure, e.g. the `public` folder you can use `process.env["PWD"]` to get to the absolute path:
 ```js
 var path = process.env["PWD"] + "/public/";
