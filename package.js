@@ -1,12 +1,12 @@
 Package.describe({
   summary: "Create, read and edit .zip files on server",
-  version: "2.2.2_1",
+  version: "2.4.0_1",
   git: "https://github.com/udondan/meteor-jszip.git",
   environments: 'server'
 });
 
 Npm.depends({
-  'jszip': '2.2.2'
+  'jszip': '2.4.0'
 });
 
 Package.on_use(function (api) {
