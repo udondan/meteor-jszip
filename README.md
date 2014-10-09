@@ -8,7 +8,7 @@ This package packs [JSZip][1] and adds a `saveAs` method to the zip instance for
 
 ##Install
 ```
-mrt add jszip
+meteor add udondan:jszip
 ```
 
 
