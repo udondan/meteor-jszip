@@ -1,6 +1,8 @@
 jszip
 =============
 
+__NO LONGER MAINTAINED__
+
 A Zip package for Meteor. Create, read and edit .zip files on server.
 
 This package packs [JSZip][1] and adds a `saveAs` method to the zip instance for convenience.
